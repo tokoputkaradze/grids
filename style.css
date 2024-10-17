@@ -1,0 +1,64 @@
+
+.container{
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-columns: 
+     30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-auto-columns: 30px;
+    grid-gap: 1em ; 
+}
+.grid-item1{
+    grid-row: 1 / 7;
+    grid-column: 1 / 7;
+    background-color: red;
+}
+.grid-item2{
+    grid-row:  7 / 10;
+    grid-column: 1 / 7;
+    background-color: red;
+}
+.grid-item3{
+    grid-row: 10 / 13;
+    grid-column: 1 / 7;
+    background-color: red;
+}
+.grid-item4{
+    grid-row: 1 / 4;
+    grid-column: 7 / 12;
+    background-color: red;
+}
+.grid-item5{
+    grid-row: 4 / 7;
+    grid-column: 7 / 12;
+    background-color: red;
+}
+.grid-item6{
+    grid-row: 7 / 13;
+    grid-column: 7 / 12;
+    background-color: red;
+}
+.grid-item7{
+    grid-row: 1 / 4;
+    grid-column: 12 / 24;
+    background-color: red;
+}
+.grid-item8{
+    grid-row: 4 / 10;
+    grid-column: 12 / 18;
+    background-color: red;
+}
+.grid-item9{
+    grid-row: 4 / 7;
+    grid-column: 18 / 24;
+    background-color: red;
+}
+.grid-item10{
+    grid-row: 7 / 10;
+    grid-column: 18 / 24;
+    background-color: red;
+}
+.grid-item11{
+    grid-row: 10 / 13;
+    grid-column: 12 / 24;
+    background-color: red;
+}
